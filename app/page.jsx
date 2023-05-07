@@ -6,6 +6,10 @@ import getListings from './actions/getListings';
 import ListingCard from './components/listings/ListingCard';
 import getCurrentUser from './actions/getCurrentUser'
 
+
+export const dynamic = "force-dynamic";
+
+
 const Page = async ({searchParams}) => {
   //searchParams will always be a object even its empty, and for getlistings, thatswhat we want.
   const listings = await getListings(searchParams);

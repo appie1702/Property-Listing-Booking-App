@@ -7,7 +7,7 @@ import getReservations from '../actions/getReservations'
 import React from 'react'
 import ReservationsClient from './ReservationsClient'
 
-const page = async () => {
+const Page = async () => {
 
 
     const currentuser = await getCurrentUser();
@@ -49,4 +49,4 @@ const page = async () => {
   )
 }
 
-export default page
+export default Page

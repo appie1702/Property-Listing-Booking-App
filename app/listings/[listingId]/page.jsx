@@ -6,7 +6,7 @@ import ListingClient from './ListingClient'
 import getCurrentUser from '../../../app/actions/getCurrentUser'
 import getReservations from '../../actions/getReservations'
 
-const page = async ({params}) => {
+const Page = async ({params}) => {
   console.log(params);
   const listing = await getListingById(params);
   const currentuser = await getCurrentUser();
@@ -30,4 +30,4 @@ const page = async ({params}) => {
   )
 }
 
-export default page
+export default Page

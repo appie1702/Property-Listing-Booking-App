@@ -6,7 +6,7 @@ import getListings from './actions/getListings';
 import ListingCard from './components/listings/ListingCard';
 import getCurrentUser from './actions/getCurrentUser'
 
-const page = async ({searchParams}) => {
+const Page = async ({searchParams}) => {
   //searchParams will always be a object even its empty, and for getlistings, thatswhat we want.
   const listings = await getListings(searchParams);
   const currentuser = await getCurrentUser();
@@ -37,4 +37,4 @@ const page = async ({searchParams}) => {
   )
 }
 
-export default page
+export default Page

@@ -4,7 +4,7 @@ import getCurrentUser from '../actions/getCurrentUser'
 import getListings from '../actions/getListings'
 import PropertiesClient from './PropertiesClient'
 
-const page = async ()=>{
+const Page = async ()=>{
 
     const currentuser = await getCurrentUser();
 
@@ -47,4 +47,4 @@ const page = async ()=>{
     )
 }
 
-export default page
+export default Page

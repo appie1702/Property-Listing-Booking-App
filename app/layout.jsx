@@ -10,9 +10,13 @@ import SearchModal from './components/modals/SearchModal'
 import getCurrentUser from './actions/getCurrentUser'
 
 export const metadata = {
-  title: 'Airbnb',
-  description: 'Airbnb clone',
+  title: 'Homify',
+  description: 'Homify',
+  icons: {
+    icon: '/logo.png',
+  },
 }
+
 
 const font = Nunito({
   subsets:["latin"]

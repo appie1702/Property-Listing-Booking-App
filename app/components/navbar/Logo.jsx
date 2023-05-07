@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 
 import React from 'react'
 
-const logo = () => {
+const Logo = () => {
     const router = useRouter();
 
   return (
@@ -20,4 +20,4 @@ const logo = () => {
   )
 }
 
-export default logo
+export default Logo

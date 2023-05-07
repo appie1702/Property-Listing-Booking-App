@@ -108,7 +108,7 @@ const LoginModal = () => {
                 >
                     <div className='flex flex-row items-center gap-2 justify-center'>
                         <div>
-                            Don't have an Account?
+                            Don&apos;t have an Account?
                         </div>
                         <div
                             onClick={onToggle}

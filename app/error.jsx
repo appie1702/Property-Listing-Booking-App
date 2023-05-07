@@ -4,10 +4,10 @@ import { useEffect } from "react"
 import EmptyPage from './components/Emptypage'
 import React from 'react'
 
-const error = ({error}) => {
+const ErrorState = ({error}) => {
 
     useEffect(()=>{
-        console.log(error)
+        console.error(error)
     },[error])
 
   return (
@@ -18,4 +18,4 @@ const error = ({error}) => {
   )
 }
 
-export default error
+export default ErrorState

@@ -9,11 +9,13 @@ const Logo = () => {
   const router = useRouter();
 
   return (
-    <div className="hidden md:flex items-center justify-center space-x-3">
+    <div
+      className="hidden md:flex items-center justify-center space-x-3 cursor-pointer"
+      onClick={() => router.push("/")}
+    >
       <Image
-        onClick={() => router.push("/")}
         alt="Logo"
-        className="cursor-pointer"
+        className=""
         height={28}
         width={28}
         src="/images/logo2.png"
